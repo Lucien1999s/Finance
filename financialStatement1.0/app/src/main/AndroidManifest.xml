@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.financialstatement">
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/security"
+    android:label="Security Analysis 1.0"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.FinancialStatement10">
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity  android:name="efficiency" android:label="efficiency"> </activity>
+    <activity  android:name="fluidity" android:label="fluidity"> </activity>
+    <activity  android:name="structure" android:label="structure"> </activity>
+    <activity  android:name="safemargin" android:label="safemargin"> </activity>
+    <activity  android:name="valueprice" android:label="valueprice"> </activity>
+    <activity  android:name="others" android:label="others"> </activity>
+    <activity  android:name="dStructure" android:label="dStructure"> </activity>
+    <activity  android:name="userInstruction" android:label="userInstruction"> </activity>
+</application>
+
+</manifest>

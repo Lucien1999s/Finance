@@ -1,0 +1,6 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:fillViewport="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用者說明" android:layout_gravity="center" android:textSize="25sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.本軟體提供使用者在證券分析上可以更精確且快速的了解該證券\n2.分析之結果僅代表本軟體之見解，不等於使用者實際之分析情況 \n3.各數據的計算因子需由使用者自行從該公司財報中自行認列\n4.本軟體採用之財報分析參考書籍為《教你看懂財務報表》作者:Benjamin Graham" android:layout_gravity="center" android:layout_marginTop="0dp" android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

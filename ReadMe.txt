@@ -1,0 +1,1 @@
+Financial Statement 1.0 ,is a application when I first designed android studio in java,so it still has a lot of bug need to fix.
